@@ -1,0 +1,23 @@
+Auto:
+
+- auto_ID - BIGINT- AUTO_INCREMENT
+
+- marca - VARCHAR(15) - NOT_NULL
+
+- modello - VARCHAR(20) - NOT_NULL - INDICE
+ 
+- anno_immatricolazione - YEAR - NOT_NULL 
+
+- colore - VARCHAR(13) 
+
+- cilindrata - SMALLINT - UNSIGNED
+
+- cavalli - SMALLINT - NOT_NULL
+
+- alimentazione - VARCHAR(10) - NOT_NULL 
+
+- prezzo FLOAT(9,2) - NOT_NULL
+
+- km - MEDIUMINT UNSIGNED - NOT_NULL
+
+
